@@ -68,10 +68,6 @@
       return $('<div>')
         .addClass('instagram-placeholder')
         .attr('id', photo.id)
-        .append(
-          $('<a>')
-            .attr('target', '_blank')
-            .attr('href', '#photo.link')
             .append(
               $('<img>')
                 .addClass('instagram-image')
@@ -80,8 +76,7 @@
 			.append(
 				$('<div>')
 				.attr('class','overlay')
-				.html('<ul><li class="username">'+ photo.user.username+'</li><li class="photo"><img src="'+image_url+'" alt="'+photo.caption.text+'"><li class="caption">'+photo.caption.text+'</li>')
-			)
+				.html('<ul><li class="username">'+ photo.user.username+'</li><li class="photo"><img src="'+ image_url +'"></li></ul>')
         );
     }
     

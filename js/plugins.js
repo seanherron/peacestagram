@@ -71,12 +71,17 @@
         .append(
           $('<a>')
             .attr('target', '_blank')
-            .attr('href', photo.link)
+            .attr('href', '#photo.link')
             .append(
               $('<img>')
                 .addClass('instagram-image')
                 .attr('src', image_url)
             )
+			.append(
+				$('<div>')
+				.attr('class','overlay')
+				.html('<ul><li class="username">'+ photo.user.username+'</li><li class="photo"><img src="'+image_url+'" alt="'+photo.caption.text+'"><li class="caption">'+photo.caption.text+'</li>')
+			)
         );
     }
     

@@ -32,6 +32,7 @@ $(function(){
       })
     }		
   }) 
+  
 });
 	$('a.overlay_toggle').click(function() {
 	    alert("Handler for .click() called.");

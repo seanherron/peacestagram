@@ -34,12 +34,17 @@ $(function(){
   }) 
   
 });
-	$('a.overlay_toggle').click(function() {
-	    alert("Handler for .click() called.");
-	});
 	
 	$(window).scroll(function () {
 	   if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10) {
 	      $("button.load_btn").click()
 	   }
+	});
+	
+	$("img.instagram-image").live("click", function(){
+	  $(this).next().toggleClass("active");
+	});
+	
+	$("div.overlay").live("click", function(){
+	  $(this).removeClass("active");
 	});

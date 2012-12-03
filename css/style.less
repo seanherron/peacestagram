@@ -46,20 +46,22 @@
 			width:49%;
 			float:left;
 			padding:0.5%;
+			position:relative;
 		}
 		
 		div.overlay {
 			display:none;
-			position:static;
+			position:absolute;
+			top:0;
+			left:0;
 			width:100%;
 			height:100%;
 			background:rgba(000,000,000,0.8);
 			color:white;
-			padding-top:100px;
 			ul {
 				background:black;
-				width: 60%;
-				margin-left:20%;
+				width: 30%;
+				margin-left:25%;
 				padding:0;
 				margin-right:0;
 				}
@@ -77,10 +79,6 @@
 		
 		div.overlay.active {
 			display:block;
-			position:fixed;
-			width:100%;
-			height:100%;
-			text-align:center;
 			}
 		
 		button.load_btn {

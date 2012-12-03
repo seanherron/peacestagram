@@ -76,7 +76,7 @@
 			.append(
 				$('<div>')
 				.attr('class','overlay')
-				.html('<ul><li class="username">'+ photo.user.username+'</li><li class="photo"><img src="'+ image_url +'"></li></ul>')
+				.html('<ul><li class="username">'+ photo.user.username+'</li></ul>')
         );
     }
     

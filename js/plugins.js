@@ -72,14 +72,18 @@
               $('<img>')
                 .addClass('instagram-image')
                 .attr('src', image_url)
-            )
-			.append(
-				$('<div>')
-				.attr('class','overlay')
-				.html('<ul><li class="username">'+ photo.user.username+'</li></ul>')
         );
     }
-    
+//		$("img.instagram-image").live("click", function createOverlayElement(photo){
+//	     $(this).after('<p>'+image_url+'</p>');
+//		});
+
+function createOverlayElement(photo) {
+  return $('<div>')
+    .addClass('overlay')
+	.html('this is a test');
+}
+
     function createEmptyElement() {
       return $('<div>')
         .addClass('instagram-placeholder')

@@ -1,13 +1,18 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
+PEACESTAGRAM
+An Instagram Visualization of Peace Corps volunteers around the world.
 
-    <name> -- <role> -- <twitter>
+Created at RHoK Rochester December 2012
+www.rhok.org
+
+# TEAM
+	Sean Herron - seanherron@gmail.com
 
 # THANKS
 
-    <name>
+The awesome RHoK Rochester Organizers
 
 # TECHNOLOGY COLOPHON
 
